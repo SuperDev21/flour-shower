@@ -1,0 +1,109 @@
+/* ############## CSS main ############ */
+
+/************* css formulaire ************/
+form{
+    border: 1px solid black;
+    width: 40%;
+    margin: 0% auto 10% auto;
+    padding: 3%;
+    
+}
+form>p{
+    font-weight: bold;
+    margin-top: 0;
+}
+form>div{
+    display: flex;
+    justify-content: space-between;
+}
+form>div>input{
+    padding: 1% 0;
+    width: 45%;
+    
+}
+textarea{
+    width: 100%;
+    margin: 3% 0%;
+    padding-bottom: 10%;
+}
+/************* main Bloc  ************/
+.bloc-main{
+    margin: 3% 5%;
+}
+.bloc-main>p{
+    color:gray;
+}
+.conteneur-divMap{
+    display: flex;
+    justify-content: space-between;
+}
+.map{
+    border:1px solid black;
+}
+.map>div>p{
+    color: gray;
+   
+}
+address{
+    color:gray;
+}
+.map>div{
+    padding: 5%;
+}
+/************* bloc colorful in main ************/
+.bloc-main-color{
+    background-color: rgb(236, 231, 231);
+    text-align: center;
+    padding: 5% 5%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.bloc-main-color>p{
+    color: black;
+    font-weight: bold;
+}
+.bloc-main-color>img{
+    width: 30%;
+}
+/* -------------------- media query ---------------*/
+
+/* -------- small and meduim screen -------------- */
+
+    @media screen and (max-width: 760px){
+        /*************  main ************/
+        #intro{
+            margin-bottom: 5% !important;
+        }
+        /************ formulaire ************/
+       form{
+        width: 80%;
+       }
+       form>div{
+        flex-direction: column;
+       }
+       form>p{
+           margin-bottom: 0;
+       }
+       form>div>input{
+           width: 100%;
+           margin-top: 3%;
+       }
+       .conteneur-divMap{
+           flex-direction: column;
+       }
+       .map{
+           margin-bottom: 5%;
+       }
+       /************* iframe carte ************/
+       iframe{
+           width:100%;
+       }
+       .bloc-main-color{
+           padding-left: 10%;
+           padding-right: 10%;
+       }
+       .bloc-main-color>img{
+        width: 60%;
+    }
+    }
+    

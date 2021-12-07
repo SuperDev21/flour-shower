@@ -1,0 +1,49 @@
+/* ############## CSS main ############ */
+
+/************* main Bloc  ************/
+.bloc-article1>p{
+    color: gray;
+    margin-top: 0%;
+    padding-bottom: 5%;
+}
+
+.main-bloc>article{
+    width: 100%;
+    padding:0% 5% 5% 0%;
+
+}
+.img-bloc{
+    width: 100%;
+}
+.titre2-main-bloc{
+    margin-top: 0px;
+    margin-bottom: 1%;
+}
+
+/* ------------ media query --------------*/
+
+/* -------- small and meduim screen -------- */
+@media screen and (max-width: 760px){
+    .main-bloc{
+        display: flex;
+        margin: 0% 5% 3% 5%;
+        flex-direction: column;
+    
+    }
+    .main-bloc-revers{
+        flex-direction: column-reverse;
+    }
+    .main-bloc>article{
+        padding:0% 2% 1% 0%;
+    }
+}
+
+/* -------------- large screen ------------ */
+@media screen and (min-width: 760px){
+    .main-bloc{
+        display: flex;
+        margin: 0% 5% 3% 5%;
+        align-items: center;
+    
+    }
+}

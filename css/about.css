@@ -1,0 +1,159 @@
+
+/* ############## CSS main ############ */
+
+/************* main Bloc 2 ************/
+.arlicles>h3{
+    margin: 0;
+}
+.arlicles>p{
+    margin-top: 0%;
+}
+/************* main Bloc 3 ************/
+.main-bloc3{
+    background-color: rgb(236, 231, 231);
+    padding: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+
+}
+
+/* ------------ media query --------------*/
+
+/* -------- small and meduim screen -------- */
+
+@media screen and (max-width: 760px){
+
+    /* ************  main Bloc 2 ******** */
+    .main-bloc2{
+        display: block;
+        margin: 0% 5% 0% 5%;
+    }
+
+    .img-cream{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .discription{
+        color: gray;
+    }
+
+/* ************  main Bloc 3 *************/
+    .main-bloc3>p{
+        margin-right: 30px;
+        width: 50%;
+    }
+/* ************ main Bloc 4 ************ */
+    .main-bloc4{
+        display: block;
+        margin-left: 5%;
+    }
+    .main-bloc4>article>img{
+        border-radius: 50%;
+        width: 30%;
+        margin: 3% 0% 3% 0%;
+    }
+    .main-bloc4>article{
+        padding: 10px;
+    }
+    .main-bloc4>article>p{
+        color: gray;
+        padding-right: 5%;
+    }
+    .titre-bloc4{
+        margin-left: 5%;
+    }
+/* ************  main Bloc 5 ************  */
+.main-bloc5{
+    display: block;
+    background-color: rgb(236, 231, 231);
+    padding: 40px 10% 40px 10%;
+    margin: 5% 0% 5% 0%;
+
+}
+.bloc5-article1{
+    padding:5% 0% 5% 0%;
+}
+.main-bloc5>article>img{
+    width: 100%;
+    padding: 5% 0%;
+}
+
+.bloc5-auteur{
+    float: right;
+    padding-right: 3%;
+} 
+}
+/* ------------ large  screen ------------*/
+
+@media screen and (min-width: 760px){
+    /* ************  main Bloc 2 ************  */
+    .main-bloc2{
+        display: flex;
+        margin-left: 5%;
+    }
+    article{
+        justify-content: space-between;
+    }
+    .img-cream{
+        width: 100%;
+    }
+    .discription{
+        color: gray;
+    }
+    .arlicles{
+        padding-right: 5%;
+        width: 60%;
+    }
+
+    /* ************  main Bloc 3 ************  */
+    .main-bloc3>p{
+        margin-right: 30px;
+    }
+    /* ************  main Bloc 4 ************  */
+    .main-bloc4{
+        display: flex;
+        margin-left: 5%;
+    }
+    .main-bloc4>article>img{
+        border-radius: 50%;
+        width: 30%;
+        margin: 3% 0% 3% 0%;
+    }
+    .main-bloc4>article{
+        padding: 10px;
+    }
+    .main-bloc4>article>p{
+        color: gray;
+        padding-right: 5%;
+    }
+    .titre-bloc4{
+        margin-left: 5%;
+    }
+ 
+   /* ************  main Bloc 5 ************  */
+    .main-bloc5{
+        display: flex;
+        background-color: rgb(236, 231, 231);
+        padding: 40px 40px 40px 5%;
+        margin: 5% 0% 5% 0%;
+    
+    }
+    .bloc5-article1{
+        padding:5% 8% 5% 3%;
+    }
+    .main-bloc5>article>img{
+        width: 80%;
+        padding: 5% 0%;
+    }
+    .main-bloc5>article{
+        width: 60%;
+    
+    }
+    .bloc5-auteur{
+        float: right;
+        padding-right: 3%;
+    }
+}

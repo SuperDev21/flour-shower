@@ -1,0 +1,121 @@
+/* ############### body css ################ */
+body{
+    margin: 0px;
+    line-height: 1.5;
+    font-size:large;
+}
+/* ############### header css ############## */
+header>a>img{
+    margin-left: 5%;
+}
+header{
+    background-color:#1C4B65;
+    display:block;
+    padding:0px 20px;
+}
+header>nav{
+    display: flex;
+    float: right;
+}
+header>nav>ul{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+header>nav>ul>li>a{
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+    text-decoration: none;
+}
+/* ############### main css  ################*/
+main{
+    margin: 3% auto 2% auto;
+}
+#intro{
+    margin-bottom: 8%; 
+    text-align: center;
+}
+input.button{
+    padding: 10px 10px;
+      background-color: #f5e2cd79;
+      border-radius: 6px;
+      border: 1px solid orange;
+  
+  } 
+/* ############### footer css ###############*/
+footer{
+    padding: 2%;
+}
+/*********** footer section 1 csss ***********/
+.footer-section1{
+    display:flex; 
+    justify-content: space-between;
+    padding: 10px 0px;
+   border-bottom: 1px solid gray; 
+   margin-left: 3%;
+   margin-right: 3%;
+}
+.footer-section1>img{
+    height: 60px;
+}
+.conteur{
+    display: flex;
+}
+h4{
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.conteur>div>ul{
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+}
+.conteur>div>ul>li{
+    padding-bottom: 10px;
+}
+
+.conteur>div>ul>li>a{
+    text-decoration: none;
+}
+.conteur>div{
+    margin-right: 50px;
+}
+/********** footer section 2 csss **********/
+.footer-section2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.footer-section2>div{
+    display: flex;
+}
+.footer-section2>div>a>img{
+    height: 40px;
+}
+.footer-section2>div>a{
+    margin-top: 5%;
+    margin-left: 2px;
+}
+/* --------------- media query ----------------*/
+
+/* ------------ small screen --------------*/
+@media all and (min-width: 0px) and (max-width: 550px){
+    /*********** footer section 1 csss ************/
+    .footer-section1{
+        display:block; 
+    }
+    footer>section>img{
+        height: 15%;
+    }
+
+}
+/* ------------ small and meduim screen--------------*/
+@media screen and (max-width: 760px){
+    #intro{
+        text-align:center;
+        width: 70%;
+        margin: 5% auto 15% auto;
+    }
+}

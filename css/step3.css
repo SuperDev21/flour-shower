@@ -1,0 +1,114 @@
+/* ############## CSS main ############ */
+.intro-span-titre{
+    text-transform: uppercase;
+}
+.main-bloc{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 231, 231);
+    padding: 5%;
+}
+
+.main-bloc>p>span{
+    display: block;
+    color:orange;
+}
+h2{
+   text-transform: uppercase;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-left: 5%;
+   position: absolute;
+   top: 0%;
+}
+
+main>section{
+    margin: 0% 10% 8% 10%;
+    position:relative;
+}
+
+.span-section3{
+    display: block;
+    font-weight: bold;
+    padding-bottom: 2%;
+    color: black;
+}
+.p-section3{
+    color:gray;
+    text-align: center;
+    margin-bottom: 7%;
+}
+.div-section3{
+    width: 80%;
+    margin: 0% auto 3% auto;
+}
+.div-section3>img{
+    border-radius: 50%;
+    width: 15%;
+    margin: 1% 1% 1% 0%;
+}
+/* ----------------- media query -----------------*/
+
+/* ------------------ small screen --------------*/
+@media screen and (max-width: 550px){
+    .main-bloc>p{
+        padding-top: 15%;
+    }
+    .main-bloc>.p-article2{
+        padding-top: 25% !important;
+    }
+
+.div-section3{
+        text-align: center;
+        padding-bottom: 12%;
+    }
+    .div-section3>img{
+       width: 40% !important;
+      
+    }
+    .p-section3{
+        padding-top: 15%;
+    }
+}
+/* -------- small and meduim screen -------- */
+@media screen and (max-width: 760px){
+    .main-bloc>img{
+        width: 100%;
+        padding-top: 3%;
+    }
+    .main-bloc>p>span{
+        margin-top: 3%;
+    }
+    .div-section3>img{
+       width: 30%;
+    }
+
+   .main-bloc>.p-article-exception{
+        padding-top: 3% !important;
+    } 
+    .main-bloc>.p-article2{
+        padding-top: 10% ;
+    }
+
+}
+/* --------large screen -------- */
+@media screen and (min-width: 760px){
+    .main-bloc{
+        display: flex;
+        padding-top: 0% !important;
+    }
+    .main-bloc>img{
+        width: 50%;
+        margin-left: 7%;
+        padding-top: 5%;
+    }
+    .main-bloc>p>span{
+        margin-top: 10%;
+    }
+    .main-bloc>p{
+        margin-top: 0px;
+    }
+    h2{
+        line-height: 0;
+    }
+}
